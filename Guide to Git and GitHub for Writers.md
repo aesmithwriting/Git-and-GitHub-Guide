@@ -63,7 +63,9 @@ Git is a general purpose distributed revision control system. Essentially, it's 
 
 *Explanation*
 
+Multiple formats, repurposed content, collaborators, need to be cross-compatible with different devices 
 
+Use this workflow and your content will be ready for the web faster
 
 ### Benefits of distributed vs. centralized systems
 
@@ -83,6 +85,47 @@ Git is a decentralized version control system. Here's why that's important:
 ### What you need to get started
 
 ---
+
+You'll need to install and set up a few tools that will help you do your work faster and more efficiently. Set up your workflow now and save hours on repeatable tasks. 
+
+### Install a Markdown editor
+
+You'll want to work in Markdown for this exercise (read this to find out why). Markdown is a simple markup language that's ideal for writers that lets us control the display of the document. We can create lists, add images, format words in bold or italic, include quotes or raw HTML or do other things using a few keys and non-alphabetic characters such as #, *, or _. 
+
+Brush up on Markdown with a tutorial, and keep a cheat sheet on hand. https://www.markdowntutorial.com/
+
+https://github.com/adam-p/markdown-here/wiki/Markdown-Here-Cheatsheet
+
+#### Typora
+
+[Typora]: https://typora.io/	"Typora"
+
+gives you a distraction-free space to write, complete with a live preview feature that helps you focus on your content. I love how it helps me see an outline of my document at a glance, import and export different file types and keep track of the size of my documents in terms of words, reading minutes and even lines and characters. 
+
+Bonus: The Auto pair feature, which auto-completes pairs of brackets and quotes similar to a code editor, is a huge time saver.
+
+You can use Typora on Windows, Linux and OS X.
+
+Other great text editors include:
+
+[iA Writer]: https://ia.net/writer	"iA Writer "
+[Ulysses]: https://ulysses.app/	"Ulysses"
+[Visual]: https://code.visualstudio.com/	"Visual Studio Code"
+
+
+
+### Set up Version Control on GitHub
+
+No matter what type of project we're working on, as writers we need to do a few things with every piece of work - type text, save it, and make it accessible for anyone we're collaborating with to contribute and edit our work. 
+
+Here's how to set up GitHub to work for you:
+
+1. Download Git to your computer. Find the Windows installer here and the OS X installer here. Linux users - you can probably find what you need.
+2. Visit https://github.com/.
+3. Create your account.
+4. Download the GitHub desktop client.
+
+That's it! With Git, you can track your own and others' revisions far easier and cleaner than you could in Google Docs, Word or other tools. Plus, you can all simultaneously edit the document by "pushing" your changes.
 
 
 
