@@ -116,18 +116,77 @@ Other great text editors include:
 
 ### Set up Version Control on GitHub
 
+------
+
 No matter what type of project we're working on, as writers we need to do a few things with every piece of work - type text, save it, and make it accessible for anyone we're collaborating with to contribute and edit our work. 
 
 Here's how to set up GitHub to work for you:
 
-1. Download Git to your computer. Find the Windows installer here and the OS X installer here. Linux users - you can probably find what you need.
+1. Download Git to your computer. Find the Windows installer here https://git-scm.com/download/win and the OS X installer here https://git-scm.com/download/mac. Linux users - you can probably find what you need.
 2. Visit https://github.com/.
 3. Create your account.
-4. Download the GitHub desktop client.
+4. Download the GitHub desktop client. https://desktop.github.com/
 
 That's it! With Git, you can track your own and others' revisions far easier and cleaner than you could in Google Docs, Word or other tools. Plus, you can all simultaneously edit the document by "pushing" your changes.
 
 
+
+### So, now you have:
+
+- A working knowledge of Markdown
+- A Markdown-focused text editor (Typora highly recommended)
+- A way to upload your content to the web without using confusing word processors or proprietary programs 
+- A central storage place for your content. Your team will be able to edit, publish and re-use it painlessly across devices and platforms.
+
+
+
+### Getting ready to work
+
+------
+
+Now that you've got your workspace set up (think of it as having put one of those IKEA desks together), it's time to create a place for your files and make them accessible to your team via GitHub (kind of like setting up a filing cabinet with folders inside). Here's how to do that. 
+
+#### 1. Create a folder and file
+
+1.  Just like on Google Drive, you should keep all related work in one folder so anyone who needs it can find it. I'll share my folder structure for this repository dedicated to the Guide to Git and GitHub. I've got one folder for the main document and supporting files, and one for images. 
+2. Open Typora.
+3. Hit **File -> New**.
+4. Name your Typora file whatever you want and save it in your work folder (a file name that describes what's in the document is best). 
+
+You should have a basic file structure that looks like this:
+
+
+
+To see that outline feature in Typora I talked about before, go to your Typora document and create some headlines and sub-headlines. Then click View -> Outline to see a structural overview of your content. 
+
+
+
+#### 2. Build your GitHub repository
+
+Git might seem intimidating when you first dig into it (I was lucky enough to have Janis personally tutor me in all things Git/GitHub). If you don't have a tutor, this process can still be easily broken down into steps:
+
+1. Open GitHub Desktop.
+2. Hit **File -> Add Local Repository**.
+3. Select your work folder you created in Step 1.
+4. You may have to click **create a repository here**.
+5. Hit **Create Repository** or **Add Repository** as requested by GitHub.
+6. GitHub takes care of everything. You might see hidden files like this in your folder. That's fine, leave 'em there:
+7. You'll see your repository in the left pane:
+
+
+
+#### 3. Push your repository to github.com 
+
+Right now, your GitHub repository is stored on your computer (what we nerds call "stored locally"), but that won't do - the whole point is to have your stuff secure and backed up in a non-proprietary "cloud", accessible and editable by your team. Here's how to make that happen:
+
+1. Go to GitHub Desktop and hit the **Publish Repository** button in the row along on the top. Here's what it looks like in Windows:
+2. Check **Keep this code private** if you'd like to (you'll need to have a paid account and be an organization owner or have admin permissions for your repository. Learn more about making a public repository private. https://help.github.com/articles/making-a-public-repository-private/).
+3. That's it for settings, unless you're an organization owner. 
+4. Hit **Publish Repository**. 
+5. You'll need to log in to GitHub if you're not already. 
+6. GitHub Desktop will push your files to the cloud and create a repository on the web-based app. https://github.com/
+
+Now comes the fun part! You get to log in to github.com and see your repository all ready to go:
 
 Steps
  Use a collaborative writing project as an example - get blocked on this - message Janis on slack. want live on site as quickly as possible. ask Janis for example usage of git 
@@ -156,3 +215,12 @@ Steps
 
 
 Do you use Git and GitHub in your content workflow? Do you love it or hate it? What was the learning process like for you, and do you have any tips, tricks, or advice you think should be included in this guide? Tell me in the comments! 
+
+
+
+### Extra resources
+
+------
+
+The GitHub Guide - github.com https://guides.github.com/activities/hello-world/
+
