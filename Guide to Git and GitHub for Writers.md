@@ -188,6 +188,52 @@ Right now, your GitHub repository is stored on your computer (what we nerds call
 
 Now comes the fun part! You get to log in to github.com and see your repository all ready to go:
 
+
+
+#### Some extra stuff to do
+
+##### 1. Invite collaborators to your repository
+
+As we've said above, the real power of Git and GitHub lies in its ability to allow groups and remote teams to collaborate easily when it's time to edit and revise your work. 
+
+
+
+##### 2. Create a branch
+
+When you create your repository, you start with one master definitive branch. A branch is a copy or "snapshot" of the master as it was at a specific point in time. Anyone working on the repository can create a branch to experiment or make edits before committing them to master. 
+
+This is kind of like when you have different versions of the same file, except with the power of Git and GitHub, it's easy to eventually merge them all together and see changes, instead of ending up with different versions of the same file floating around your team and confusing everyone.
+
+**How to create a branch**
+
+1. In GitHub Desktop, go to the **Branch** menu (second from right).
+2. Click **Branch -> New Branch**.
+3. Give your branch a name. 
+4. Click the blue **Create branch** button or hit the Enter key.
+
+Learn more about branches in the GitHub Guide https://guides.github.com/activities/hello-world/#branch
+
+
+
+##### 3. Write a good README file
+
+A README is just like an About or FAQ page for your project.
+
+From makeareadme.com https://www.makeareadme.com/#what-is-it: 
+*"A README file is a text file that introduces and explains a project. It contains information that is commonly required to understand what the project is about."*
+
+If you want others to use or contribute to your project, creating a README file before you show your project to the public and placing it in the top level directory is a good idea - it will help bring new people up to speed. 
+
+##### 
+
+
+
+
+
+
+
+
+
 Steps
  Use a collaborative writing project as an example - get blocked on this - message Janis on slack. want live on site as quickly as possible. ask Janis for example usage of git 
 
