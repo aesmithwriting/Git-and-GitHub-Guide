@@ -224,7 +224,140 @@ From makeareadme.com https://www.makeareadme.com/#what-is-it:
 
 If you want others to use or contribute to your project, creating a README file before you show your project to the public and placing it in the top level directory is a good idea - it will help bring new people up to speed. 
 
-##### 
+
+
+### So, now you have:
+
+- Someplace to store your stuff, both on your computer and on github.com. 
+- Your first project and README files. 
+
+Now it's time to get to work!
+
+
+
+### Write
+
+------
+
+ Now that you've got your workspace set up and a way to get your stuff online, it's time to do your thing. So create content - write that blog post, article, e-book or whatever. Here are some tips to keep in mind:
+
+#### 1. Give your document structure
+
+No matter what you're writing, you'll need some basic elements of structure in your document, such as:
+
+##### Headings 
+
+We don't read content word for word any more. We scan. This means your readers will be scanning your document looking for headings to catch their attention and clue them in that the text following is important and relevant to them. Plus, good search engine optimization (SEO) requires headings. 
+
+To make a heading in your Markdown-focused editor, use this syntax:
+
+`# Heading 1`
+
+`## Heading 2`
+
+`### Heading 3`
+
+...and so on, all the way to `###### Heading 6`
+
+If you transfer your content to HTML, each heading becomes proper markup for heading levels, and will look like this: 
+
+`<h1>Heading 1</h1>`
+
+`<h2>Heading 2</h2>`
+
+`<h3>Heading 3</h3>`
+
+...and so on, all the way to `<h6>Heading 6</h6>`
+
+In Microsoft Word, these become proper headings and in PowerPoint, they become slide headings, along with an outline. 
+
+You might also prefer using keyboard shortcuts to create headings. In Typora, use CTRL+1 to create a level one heading, CTRL+2 for a second level heading and so on on Windows. On a Mac, use CMD+1 for a level one heading.
+
+
+
+##### Bullet points and lists
+
+Lists are another thing that make your content easily scannable. If you've ever tried to type out a list in HTML in WordPress or another CMS, you feel my pain - the formatting often gets all messed up. Compare that to lists in Markdown, which are as easy as typing: 
+
+`* List item 1`
+
+`* List item 2`
+
+`* List item 3`
+
+This automagically becomes: 
+
+* List item 1
+* List item 2
+* List item 3
+
+
+For numbered lists:
+
+`1. List item 1`
+
+`2. List item 2`
+
+`3. List item 3`
+
+
+You'll notice that each time you hit the Enter key in a list,  another bullet point will appear. Hit the Enter key again to go back to typing in regular paragraphs.
+
+In Rich Text Format (RTF) or Microsoft Word, you'll see proper headings. Export to HTML and, like the syntax above, this becomes proper HTML format: 
+
+<ul>
+    <li>List item 1</li>
+    <li>List item 2</li>
+    <li>List item 3</li>
+</ul>
+
+
+
+##### Links
+
+Including relevant, high-quality links to content on your own and other sites is a must when writing for the web. Here's how to do that:
+
+`[Put link text here](https://www.github.com)`
+
+Becomes: 
+
+[Put link text here](https://www.github.com) 
+
+
+
+##### Images
+
+Here's where it gets interesting. Because Markdown is text-only, you won't embed images in your file. Instead, we use code to point to the image:
+
+![caption for image](image/folder/imagename.jpg)
+
+To insert the code, go to **Format -> Image** in Typora or use the shortcut CTRL+SHIFT+I
+
+My image caption and file name looks like this:
+
+![Hand using laptop trackpad](C:\Users\Allison\Downloads\hand-using-laptop-trackpad.jpg)
+
+
+
+You'll see that the image becomes embedded in your Markdown document and will transfer when you export to Word (.doc), PDF or Google Docs. However, if you're converting to WordPress or another CMS, you'll have to insert the images again. Inserting the images now is still worth your time, though, because then you'll know where they belong within your content, and you'll have them stored on your computer, so inserting them into your post in WordPress shouldn't take long.
+
+
+
+### So, now you have:
+
+- Your content structured in a Markdown file, ready for exporting to Word, PDF, HTML or other formats.
+- Images placed where they belong within your content. 
+- Images stored on your computer for uploading into WordPress or your favourite CMS.  
+
+
+
+#### See your outline
+
+Typora's Outline viewer gives you a nifty way to see exactly how your headlines are structured and where you are in your document at any given time - useful for large projects and for when you need to see all your headings and sub-headings at a glance.
+
+
+
+
 
 
 
