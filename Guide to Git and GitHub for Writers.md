@@ -329,17 +329,21 @@ Becomes:
 
 Here's where it gets interesting. Because Markdown is text-only, you won't embed images in your file. Instead, we use code to point to the image:
 
-![caption for image](image/folder/imagename.jpg)
+`![caption for image](image/folder/imageabc.png)`
+
+
 
 To insert the code, go to **Format -> Image** in Typora or use the shortcut CTRL+SHIFT+I
 
-My image caption and file name looks like this:
+When I do so, I end up with a photo embedded in my Markdown document:
 
 ![Hand using laptop trackpad](C:\Users\Allison\Downloads\hand-using-laptop-trackpad.jpg)
 
 
 
-You'll see that the image becomes embedded in your Markdown document and will transfer when you export to Word (.doc), PDF or Google Docs. However, if you're converting to WordPress or another CMS, you'll have to insert the images again. Inserting the images now is still worth your time, though, because then you'll know where they belong within your content, and you'll have them stored on your computer, so inserting them into your post in WordPress shouldn't take long.
+Click on the photo and you'll see the file path. This will transfer when you export to Word (.doc), PDF or Google Docs. In your GitHub document, you'll see what looks like a link.
+
+However, if you're converting to WordPress or another CMS, you'll have to insert the images again. Inserting the images now is still worth your time, though, because then you'll know where they belong within your content, and you'll have them stored on your computer, so inserting them into your post in WordPress shouldn't take long.
 
 
 
@@ -356,6 +360,28 @@ You'll see that the image becomes embedded in your Markdown document and will tr
 Typora's Outline viewer gives you a nifty way to see exactly how your headlines are structured and where you are in your document at any given time - useful for large projects and for when you need to see all your headings and sub-headings at a glance.
 
 
+
+### Commit your work
+
+As writers, we're used to saving our work to a folder or the cloud. With GitHub, your saved changes are called commits. Each time you commit a change, you're able to attach a description explaining why you made that change (for example, if you describe the section you've written in both the title and description for your commit, you'll have an at-a-glance-history of the progress of your work from the day you started until now.)
+
+Committing pushes your work to GitHub and lets you take advantage of version management. Get into the habit of making your commits at natural break points - when you complete a main section, after adding links and support files, after making edits, when you pack it in for the day, etc. Here's how to do that: 
+
+1. Open GitHub Desktop.
+
+2. Choose your project.
+
+3. Once you've made a few commits, you'll see: 
+
+   * which files have changed
+   * which text has been added
+   * which text has been deleted 
+
+   4) In the bottom left corner, you'll see a summary section. Type a short title and description here to let everyone know what you've updated.
+
+   5) Hit Commit to master.
+
+   6) You're done! You'll be able to see a history of your commits by clicking Code, then History at the top right corner of your GitHub document.
 
 
 
